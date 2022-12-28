@@ -3,15 +3,15 @@ import type { OptionalInput, RequiredInput } from '../common';
 
 export function getNumberInput(
   name: string,
-  options: RequiredInput & InputOptions,
+  options?: RequiredInput & InputOptions,
 ): number;
 export function getNumberInput(
   name: string,
-  options: OptionalInput & InputOptions,
+  options?: OptionalInput & InputOptions,
 ): undefined | number;
 export function getNumberInput(
   name: string,
-  options: InputOptions,
+  options?: InputOptions,
 ): undefined | number {
   const value = getInput(name, options);
 
