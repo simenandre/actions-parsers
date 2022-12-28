@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/cobraz/actions-parsers/compare/v1.0.0...v1.0.1) (2022-12-28)
+
+
+### Bug Fixes
+
+* add missing exports ([328dbe6](https://github.com/cobraz/actions-parsers/commit/328dbe6a9c9ac75e26d0e9ed17397546cc64f234))
+
 ## 1.0.0 (2022-12-28)
 
 
