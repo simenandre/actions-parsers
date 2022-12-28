@@ -18,7 +18,7 @@ export function getYAMLInput<T>(
   name: string,
   options?: GetYAMLInputOptions<T>,
 ): undefined | T {
-  const { parser, ...otherOptions } = options ?? {};
+  const { parser, ...otherOptions } = options || {};
   const value = getInput(name, otherOptions);
 
   if (!value) {

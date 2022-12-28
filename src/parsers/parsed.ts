@@ -17,7 +17,7 @@ export function getParsedInput<T>(
   name: string,
   options?: GetParsedInputOptions<T>,
 ): T | undefined {
-  const { parser, ...otherOptions } = options ?? {};
+  const { parser, ...otherOptions } = options || {};
   const input = core.getInput(name, otherOptions);
 
   if (!input) {
