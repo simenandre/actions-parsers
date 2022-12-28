@@ -19,7 +19,7 @@ describe('union', () => {
         alternatives: ['another-value'] as const,
       }),
     ).toThrowErrorMatchingInlineSnapshot(
-      `"Input was not correct for name. Valid alternatives are: another-value"`,
+      '"Input was not correct for name. Valid alternatives are: another-value"',
     );
   });
 
