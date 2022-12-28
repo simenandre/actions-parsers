@@ -32,5 +32,5 @@ describe('union', () => {
     });
 
     expect(value).toBe(undefined);
-  })
+  });
 });

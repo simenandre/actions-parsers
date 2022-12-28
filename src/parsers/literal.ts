@@ -29,5 +29,7 @@ export function getLiteralInput<T>(
     return value as T;
   }
 
-  throw new Error(`Input was not correct for ${name}. Must be ${requiredValue}`);
+  throw new Error(
+    `Input was not correct for ${name}. Must be ${requiredValue}`,
+  );
 }
