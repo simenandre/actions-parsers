@@ -33,7 +33,7 @@
     "@cobraz/prettier": "^2.0.0",
     "@tsconfig/node-lts-strictest": "^18.12.1",
     "@types/dedent": "^0.7.0",
-    "@types/jest": "^29.1.2",
+    "@types/jest": "^29.2.6",
     "@types/js-yaml": "^4",
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
