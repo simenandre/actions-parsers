@@ -17,15 +17,6 @@
     "test": "jest --coverage src/**/*"
   },
   "prettier": "@cobraz/prettier",
-  "eslintConfig": {
-    "plugins": [
-      "jest"
-    ],
-    "extends": [
-      "@bjerk/eslint-config",
-      "plugin:jest/recommended"
-    ]
-  },
   "dependencies": {
     "js-yaml": "^4.1.0"
   },
